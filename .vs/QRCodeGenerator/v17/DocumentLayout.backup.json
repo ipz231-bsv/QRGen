@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\2 \u041A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0435\u0440\\KP3\\SoftwareConstruction\\QRCodeGenerator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F25FB231-8FC2-4DA6-8686-1799AEAA7800}|QRCodeGenerator.csproj|c:\\projects\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0435\u0440\\kp3\\softwareconstruction\\qrcodegenerator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F25FB231-8FC2-4DA6-8686-1799AEAA7800}|QRCodeGenerator.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F25FB231-8FC2-4DA6-8686-1799AEAA7800}|QRCodeGenerator.csproj|c:\\projects\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0435\u0440\\kp3\\softwareconstruction\\qrcodegenerator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F25FB231-8FC2-4DA6-8686-1799AEAA7800}|QRCodeGenerator.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F25FB231-8FC2-4DA6-8686-1799AEAA7800}|QRCodeGenerator.csproj|c:\\projects\\2 \u043A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0435\u0440\\kp3\\softwareconstruction\\qrcodegenerator\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F25FB231-8FC2-4DA6-8686-1799AEAA7800}|QRCodeGenerator.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Projects\\2 \u041A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0435\u0440\\KP3\\SoftwareConstruction\\QRCodeGenerator\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Projects\\2 \u041A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0435\u0440\\KP3\\SoftwareConstruction\\QRCodeGenerator\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T20:32:59.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Projects\\2 \u041A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0435\u0440\\KP3\\SoftwareConstruction\\QRCodeGenerator\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Projects\\2 \u041A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0435\u0440\\KP3\\SoftwareConstruction\\QRCodeGenerator\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T13:29:43.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\2 \u041A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0435\u0440\\KP3\\SoftwareConstruction\\QRCodeGenerator\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Projects\\2 \u041A\u0443\u0440\u0441\\2 \u0441\u0435\u043C\u0435\u0441\u0442\u0435\u0440\\KP3\\SoftwareConstruction\\QRCodeGenerator\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAEwBoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:23:38.636Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
