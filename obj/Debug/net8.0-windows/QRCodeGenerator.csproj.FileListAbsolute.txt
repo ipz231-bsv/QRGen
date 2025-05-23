@@ -31,3 +31,36 @@ C:\Projects\2 Курс\2 семестер\KP3\SoftwareConstruction\QRCodeGenerat
 C:\Projects\2 Курс\2 семестер\KP3\SoftwareConstruction\QRCodeGenerator\obj\Debug\net8.0-windows\ref\QRCodeGenerator.dll
 C:\Projects\2 Курс\2 семестер\KP3\SoftwareConstruction\QRCodeGenerator\obj\Debug\net8.0-windows\QRCodeGenerator_MarkupCompile.lref
 C:\Projects\2 Курс\2 семестер\KP3\SoftwareConstruction\QRCodeGenerator\obj\Debug\net8.0-windows\App.baml
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\QRCodeGenerator.exe
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\QRCodeGenerator.deps.json
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\QRCodeGenerator.runtimeconfig.json
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\QRCodeGenerator.dll
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\QRCodeGenerator.pdb
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\Microsoft.Win32.SystemEvents.dll
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\QRCoder.dll
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\System.Private.Windows.Core.dll
+D:\2_course\KPZ\mkr2\QRGen\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\QRCodeGenerator.csproj.AssemblyReference.cache
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\MainWindow.baml
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\App.g.cs
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\QRCodeGenerator_MarkupCompile.cache
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\QRCodeGenerator_MarkupCompile.lref
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\App.baml
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\QRCodeGenerator.g.resources
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\QRCodeGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\QRCodeGenerator.AssemblyInfoInputs.cache
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\QRCodeGenerator.AssemblyInfo.cs
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\QRCodeGenerator.csproj.CoreCompileInputs.cache
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\QRCodeGenerator.sourcelink.json
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\QRCodeGe.C333C8C0.Up2Date
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\QRCodeGenerator.dll
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\refint\QRCodeGenerator.dll
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\QRCodeGenerator.pdb
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\QRCodeGenerator.genruntimeconfig.cache
+D:\2_course\KPZ\mkr2\QRGen\obj\Debug\net8.0-windows\ref\QRCodeGenerator.dll

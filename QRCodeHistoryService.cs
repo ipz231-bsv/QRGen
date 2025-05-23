@@ -13,6 +13,14 @@ public class QRCodeHistoryService
 {
     private readonly string _historyFilePath = "qrcodes_history.json";
 
+    // Додано новий метод для додавання запису в історію
+    public void AddToHistory(string text, string filePath)
+    {
+        var history = LoadHistory();
+        history.Add(new QRCodeHistory { Text = text, FilePath = filePath });
+        SaveHistory(history);
+    }
+
     // Метод для збереження історії QR-кодів
     public void SaveHistory(List<QRCodeHistory> history)
     {
