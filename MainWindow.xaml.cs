@@ -8,6 +8,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 using static QRCoder.QRCodeGenerator;
+using QRCodeGenerator.Validators;
 
 namespace QRCodeGenerator
 {
@@ -36,58 +37,32 @@ namespace QRCodeGenerator
                 (string.IsNullOrEmpty(lastAction) ? "" : $" | Остання дія: {lastAction}");
         }
 
+        private void SaveQRCodeToHistory(string text, Bitmap qrCode)
+        {
+            var dialog = new SaveFileDialog { Filter = "PNG Image|*.png|JPEG Image|*.jpg", FileName = "qrcode" };
+            if (dialog.ShowDialog() == true)
+            {
+                ImageSaver.SaveImage(qrCode, dialog.FileName);
+                _historyService.AddToHistory(text, dialog.FileName); 
+            }
+        }
+
         // Генерація QR-коду з шифруванням, якщо задано пароль
         private void btnGenerate_Click(object sender, RoutedEventArgs e)
         {
-            if (txtInput == null)
+            try
             {
-                MessageBox.Show("Input textbox not found.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                return;
+                InputValidator.ValidateText(txtInput.Text);
+                var qrCodeImage = _qrCodeService.GenerateQRCode(txtInput.Text, _eccLevel, null, _qrColor, _bgColor);
+
+                imgQRCode.Source = BitmapToImageSource(qrCodeImage);
+                SaveQRCodeToHistory(txtInput.Text, qrCodeImage);
+                UpdateStats("Генерація QR-коду");
             }
-
-            string text = txtInput.Text;
-            if (string.IsNullOrEmpty(text))
+            catch (ArgumentException ex)
             {
-                MessageBox.Show("Please enter some text or URL.", "Input Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                return;
+                MessageBox.Show(ex.Message, ex.GetType().Name, MessageBoxButton.OK, MessageBoxImage.Warning);
             }
-            // Перевірка на URL (простий варіант)
-            if (text.StartsWith("http", StringComparison.OrdinalIgnoreCase) && !Uri.IsWellFormedUriString(text, UriKind.Absolute))
-            {
-                MessageBox.Show("Введено некоректне посилання.", "URL Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                return;
-            }
-            // Перевірка на довжину (до 1000 символів)
-            if (text.Length > 1000)
-            {
-                MessageBox.Show("Текст занадто довгий для QR-коду (максимум 1000 символів).", "Length Error", MessageBoxButton.OK, MessageBoxImage.Error);
-                return;
-            }
-
-            // Вибір рівня корекції помилок
-            ECCLevel level = _eccLevel;
-
-            // Генерація QR-коду з вибраними кольорами
-            var qrCodeImage = _qrCodeService.GenerateQRCode(text, level, null, _qrColor, _bgColor);
-
-            imgQRCode.Source = BitmapToImageSource(qrCodeImage);
-
-            var saveFileDialog = new SaveFileDialog
-            {
-                Filter = "PNG Image|*.png|JPEG Image|*.jpg",
-                FileName = "qrcode"
-            };
-            if (saveFileDialog.ShowDialog() == true)
-            {
-                ImageSaver.SaveImage(qrCodeImage, saveFileDialog.FileName);
-
-                // Збереження в історії
-                var history = _historyService.LoadHistory();
-                history.Add(new QRCodeHistory { Text = text, FilePath = saveFileDialog.FileName });
-                _historyService.SaveHistory(history);
-            }
-
-            UpdateStats("Генерація QR-коду");
         }
 
         // Генерація QR-коду для соціальних мереж
